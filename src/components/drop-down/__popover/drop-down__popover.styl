@@ -1,0 +1,25 @@
+radius = 3px
+
+.drop-down__popover
+  display: none
+  position: absolute
+  box-sizing: border-box
+  left: -2px
+  right: -2px
+  top: 100%
+  margin: 0
+  padding: 0
+  background: #fff
+  border-radius: 0 0 radius radius
+  list-style: none
+  border: 2px solid #ccc
+
+  overflow: auto
+
+  &_direction_up
+    border-radius: radius radius 0 0
+    top: auto
+    bottom: 100%
+
+  &_is-open
+    display: block
