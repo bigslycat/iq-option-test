@@ -1,0 +1,34 @@
+radius = 5px
+arrow-size = 24px
+
+.drop-down
+  position: relative
+  display: inline-block
+  margin: 0
+  padding: 0
+  border: 2px solid #ccc
+  border-radius: radius
+  font-size: 1em
+  width: 20em
+  height: 3em
+  box-sizing: border-box
+
+  font-family: sans-serif
+
+  background-color: #fff
+  background-image: url(components/drop-down/images/arrow-drop-down-24px.svg)
+  background-repeat: no-repeat
+  background-position: center right 1em
+
+  &_open_up
+    border-radius: 0 0 radius radius
+
+    background-image: url(components/drop-down/images/arrow-drop-up-24px.svg)
+
+  &_open_down
+    border-radius: radius radius 0 0
+
+  &_is-native
+    appearance: none
+    color: #000
+    padding-left: 1.25em
