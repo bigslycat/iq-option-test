@@ -1,0 +1,40 @@
+html
+body
+  height: 100%
+  margin: 0
+  padding: 0
+
+#app
+  display: flex
+  height: 135%
+  align-items: flex-end
+  justify-content: center
+  font-family: sans-serif
+  box-sizing: border-box
+  padding-bottom: 3em
+
+.main
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  &__text
+    max-width: 25em
+
+  &__paragraph
+    font-size: 1em
+    line-height: 1.5em
+    margin: 1em 0 1em 0
+    padding: 0 1em
+
+  &__code
+    display: inline-block
+    font-size: 1em
+    font-family: monospace
+    font-weight: bold
+    background: #ddd
+    padding: 0 .3em
+    border-radius: .2em
+
+@import './components/*/*.styl'
+@import './components/*/__*/*.styl'
