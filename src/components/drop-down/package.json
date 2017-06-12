@@ -1,0 +1,11 @@
+{
+  "name": "drop-down",
+  "private": true,
+  "version": "1.0.0",
+  "main": "drop-down.js",
+  "peerDependencies": {
+    "ramda": "^0.24.1",
+    "react": "^15.5.4",
+    "classnames": "^2.2.5"
+  }
+}
