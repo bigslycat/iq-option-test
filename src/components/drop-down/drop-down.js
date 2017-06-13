@@ -65,7 +65,7 @@ export default class DropDown extends Component<DefaultProps, Props, State> {
       openDirection: 'down',
       autoComplete: this.getCountries(props, text),
       selected: null,
-      popoverSize: 350,
+      popoverSize: 400,
       isTouch: this.constructor.isTouch(),
     };
   }
